@@ -1,23 +1,62 @@
 aid: ethos-9q9rq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ethos-9q9rq.png
 name: Ethos 9q9rq
-description: Ethos 9q9rq is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  NOT A DISTINCT COMPANY — this entry is a scrape artifact. "Ethos 9q9rq" was harvested from the
+  General Catalyst portfolio page, where the trailing "9q9rq" is a CMS/render identifier appended to
+  the tile for Ethos (Ethos Technologies Inc., the online life insurance platform at ethos.com), not
+  part of any company name. It is the only entry in the harvested General Catalyst portfolio carrying
+  such a suffix, and the same portfolio already lists a plain "Ethos" entry. The real company is
+  already profiled and enriched in the API Evangelist network as all/ethos, which carries the Ethos
+  Partnership API plus authentication, conventions, conformance, llms and security artifacts. This
+  stub has no independent website, developer portal, documentation or API surface of its own and
+  should be retired or merged into ethos rather than enriched, to avoid double-counting Ethos in the
+  catalog.
+x-duplicate-of: ethos
+x-duplicate-evidence: >-
+  Trailing token "9q9rq" is a CMS identifier from the generalcatalyst.com/portfolio scrape; a separate
+  "Ethos" entry exists in the same harvested portfolio file; all/ethos resolves to ethos.com and was
+  enriched 2026-07-19. No independent surface found for this slug.
 url: https://raw.githubusercontent.com/api-evangelist/ethos-9q9rq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: duplicate-scrape-artifact
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Duplicate
+- Scrape Artifact
+- Retire
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Resolved as a duplicate scrape artifact of all/ethos; no artifacts created by design, to avoid
+    double-counting Ethos in the catalog. Recommend retire/merge into ethos. WebSearch was
+    budget-exhausted this session; conclusion rests on live WebFetch probes (generalcatalyst.com
+    portfolio, ethoslife.com 308 -> ethos.com 403) plus repo evidence (sole hash-suffixed entry in
+    the harvested General Catalyst portfolio; enriched all/ethos already covers ethos.com).
