@@ -1,4 +1,4 @@
-# Ethos 9q9rq — duplicate scrape artifact (do not enrich)
+# Ethos 9q9rq
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,22 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**This is not a distinct company.** "Ethos 9q9rq" was harvested from the General Catalyst portfolio
-page, where the trailing `9q9rq` is a CMS/render identifier appended to the tile for **Ethos**
-(Ethos Technologies Inc., the online life insurance platform at ethos.com) — not part of any company
-name.
+NOT A DISTINCT COMPANY — this entry is a scrape artifact. "Ethos 9q9rq" was harvested from the General Catalyst portfolio page, where the trailing "9q9rq" is a CMS/render identifier appended to the tile for Ethos (Ethos Technologies Inc., the online life insurance platform at ethos.com), not part of any company name. It is the only entry in the harvested General Catalyst portfolio carrying such a suffix, and the same portfolio already lists a plain "Ethos" entry. The real company is already profiled and enriched in the API Evangelist network as all/ethos, which carries the Ethos Partnership API plus authentication, conventions, conformance, llms and security artifacts. This stub has no independent website, developer portal, documentation or API surface of its own and should be retired or merged into ethos rather than enriched, to avoid double-counting Ethos in the catalog.
 
-Evidence:
+**Areas:** Company · Duplicate · Scrape Artifact · Retire
 
-- It is the only entry in the harvested General Catalyst portfolio carrying such a suffix.
-- The same harvested portfolio already lists a plain `Ethos` entry.
-- The real company is already profiled and enriched in the network as **[`all/ethos`](../ethos/)**,
-  which carries the Ethos Partnership API plus `authentication/`, `conventions/`, `conformance/`,
-  `llms/` and `security/` artifacts.
+## Ethos 9q9rq on APIs.io
 
-No independent website, developer portal, documentation or API surface exists for this slug.
+Everything profiled for Ethos 9q9rq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ethos-9q9rq/](https://apis.io/providers/ethos-9q9rq/)** — or go straight to one of the APIs or properties below.
 
-**Recommendation:** retire this repo or merge it into `ethos`, rather than enriching it — enriching
-it would double-count Ethos in the catalog.
+## API Evangelist rating
 
-Backed by: general-catalyst (via the Ethos entry)
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ethos 9q9rq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ethos-9q9rq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
